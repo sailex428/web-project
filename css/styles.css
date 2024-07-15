@@ -25,7 +25,7 @@ body, html {
     justify-content: center;
     align-items: center;
 
-    height: 325px;
+    height: 500px;
     width: 70%;
 }
 
@@ -43,6 +43,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     max-width: 70%;
+    margin-bottom: 50px;
 }
 
 .content__wrapper {
@@ -191,7 +192,7 @@ input:checked + .slider:before {
     }
 
     .main__background {
-        height: 100vh;
+        height: 100%;
     }
 
     .heading__container {
