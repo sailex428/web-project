@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.main__background {
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.219), rgb(0, 0, 0)),
+        url('/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 500px;
+    width: 80%;
+}
+
+.default__heading {
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+    word-break: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heading__1 {
+    margin-left: 20%;
+}
+
+.heading__2 {
+    margin-left: 60%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+}
+
+.content__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.content__block {
+    padding: 0 20px 0 20px;
+}
+
+.content__block:hover {
+    background-color: #171717;
+    border-color: #434343;
+}
+
+.content__link {
+    text-decoration: none;
+}
+
+.content__text {
+    font-family: sans-serif;
+    color: #989898;
+}
+
+.content__textWrapper {
+    margin-bottom: 25px;
+    padding: 0 15px 0 15px;
+    border-left: 1px #989898 solid;
+}
+
+.default__text {
+    font-family: sans-serif;
+    background: linear-gradient(#EEEEEEFF, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.default__border {
+    background-color: #000000;
+    backface-visibility: visible;
+    border-radius: 10px;
+    border: 1px solid #323232;
+}
+
+@media only screen and (max-width: 600px) {
+    .content__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .main__background {
+        height: 100vh;
+    }
+
+    .heading__1 {
+        margin-left: 7%;
+    }
+    
+    .heading__2 {
+        margin-left: 7%;
+    }
+    .heading {
+        height: 400px;
+    }
+}

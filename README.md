@@ -12,3 +12,7 @@
 
 #### Urheberrecht
 
+### Quellen
+- main picture: https://pixabay.com/de/illustrations/textur-abstrakt-struktur-bunt-1909992/
+
+
