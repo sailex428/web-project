@@ -145,9 +145,9 @@ body, html {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
+    background-color: #575757;
 }
 
 input:checked + .slider {
