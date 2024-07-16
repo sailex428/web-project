@@ -3,20 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Künstliche Intelligenz in Kunst</title>
         <meta name="description" content="Was hat Künstliche Intelligenz mit Kunst zu tun?">
-        <link rel="stylesheet" type="text/css" href="./css/styles.css">
-        <script src="js/app.js"></script>
-        <script src="https://kit.fontawesome.com/57f9094a6c.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/global.css">
+        <link rel="stylesheet" type="text/css" href="./css/switch.css">
+        <link rel="stylesheet" type="text/css" href="./css/content.css">
         <link rel="icon" href="./images/favicon.ico">
+
+        <script src="js/main.js"></script>
+        <script src="js/cookieHandler.js"></script>
+        <script src="https://kit.fontawesome.com/57f9094a6c.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="main main__background">
+        <div class="main main__background mode dark">
 
             <div class="main__mode-switch">
                 <i class="fa-regular fa-sun icon"></i>
                 <label class="switch">
                     <input id="switch__input" type="checkbox" onclick="toggleMode()">
+
                     <span class="slider round"></span>
                 </label>
                 <i class="fa-regular fa-moon icon"></i>
@@ -26,7 +33,7 @@
                 <h1 class="default__heading">Künstliche Intelligenz in der Kunst</h1>
             </div>
 
-            <div class="container">
+            <div class="main__container">
                 <div class="content__wrapper">
 
                     <a class="content__link" href="/was-ist-kunst.html">

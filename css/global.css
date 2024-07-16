@@ -1,0 +1,115 @@
+:root {
+    --text-color-dark-primary: #989898;
+    --text-color-light-primary: #383838;
+    --background-color-dark-primary: #161616;
+    --background-color-light-primary: #e0e0e0;
+}
+
+body, html {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.main__background {
+    &.dark {
+        background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgb(0, 0, 0)),
+        url('/images/background.png');
+    }
+    &.light {
+        background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.445)),
+        url('/images/background.png');
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    width: 70%;
+}
+
+.default__heading {
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+    word-break: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 0.5px 0.5px 2px #000000;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    margin-bottom: 50px;
+}
+
+.default__text {
+    font-family: sans-serif;
+    &.dark {
+        background: linear-gradient(#EEEEEEFF, #9f9f9f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &.light {
+        background: linear-gradient(rgb(80, 80, 80), #1a1a1a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.default__border {
+    backface-visibility: visible;
+    border-radius: 10px;
+    &.dark {
+        background-color: #000000;
+        border: 1px solid #323232;
+    }
+    &.light {
+        background-color: #f5f5f5;
+        border: 1px solid #b6b6b6;
+    }
+}
+
+.main__mode-switch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.copyright__background {
+    background: url('/images/background_2.png');
+    
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+@media only screen and (max-width: 600px) {
+    .main__background {
+        height: 100%;
+    }
+
+    .heading__container {
+        margin-left: 10px;
+        height: 400px;
+    }
+}
