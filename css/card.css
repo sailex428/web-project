@@ -10,12 +10,12 @@
     padding: 15px;
     margin-top: 10px;
 
-    &.dark {
+    /* &.dark {
         background-color: var(--background-color-dark-primary);
     }
     &.light {
         background-color: var(--background-color-light-primary);
-    }
+    } */
 }
 
 .card__section {
