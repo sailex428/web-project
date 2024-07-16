@@ -1,21 +1,15 @@
 .card__container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 5vh;
 
     height: auto;
-    max-width: 800px;
+    max-width: 900px;
     width: 80%;
 
     padding: 15px;
-    margin-top: 10px;
-
-    /* &.dark {
-        background-color: var(--background-color-dark-primary);
-    }
-    &.light {
-        background-color: var(--background-color-light-primary);
-    } */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .card__section {
