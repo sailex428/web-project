@@ -30,7 +30,6 @@ const onContentLoaded = () => {
             ele.classList.add(mode);
         }
     })
-    console.log(elements[0]);
     document.getElementById("switch__input").checked = elements[0].classList.contains(DARK);
 }
 
