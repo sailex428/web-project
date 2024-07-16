@@ -60,7 +60,7 @@ input:checked + .slider:before {
 .icon {
     font-size: 20px;
     margin: 0 7px 0 7px;
-    color: rgb(192, 192, 192);
+    color: rgb(255, 255, 255);
     &.dark {
         color: rgb(192, 192, 192);
     }

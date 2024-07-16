@@ -19,7 +19,7 @@ const getModeElements = () => {
     return document.querySelectorAll("." + MODE);
 }
 
-const onContentLoaded = () => {
+const handleModeOnRefresh = () => {
     const elements = getModeElements();
     const mode = getCookie("mode");
     elements.forEach((ele) => {
@@ -33,6 +33,18 @@ const onContentLoaded = () => {
     document.getElementById("switch__input").checked = elements[0].classList.contains(DARK);
 }
 
+const fetchNavbar = () => {
+    fetch('../components/navbar.html')
+        .then(response => response.text())
+        .then(navbarData => {
+            const element = document.getElementById('navbar-placeholder');
+            if (element !== null) {
+                element.innerHTML = navbarData;
+            }
+            handleModeOnRefresh();
+        });
+}
+
 addEventListener("DOMContentLoaded", () => {
-    onContentLoaded();
+    fetchNavbar();
 });
