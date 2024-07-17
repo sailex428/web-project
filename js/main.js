@@ -31,7 +31,10 @@ const handleModeOnRefresh = () => {
             ele.classList.add(mode);
         }
     })
-    document.getElementById("switch__input").checked = elements[0].classList.contains(DARK);
+    const switchInput = document.getElementById("switch__input");
+    if (switchInput !== null) {
+        switchInput.checked = elements[0].classList.contains(DARK);
+    }
 }
 
 const fetchComponent = (pathToComponent, componentName) => {
