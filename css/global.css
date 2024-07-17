@@ -70,6 +70,7 @@ body, html {
 
 .default__text {
     font-family: sans-serif;
+    line-height: 20px;
     &.dark {
         background: linear-gradient(#EEEEEEFF, #eeeeee); /* #9f9f9f */
         -webkit-background-clip: text;
@@ -104,10 +105,6 @@ body, html {
 }
 
 @media only screen and (max-width: 940px) {
-    .main__background {
-        height: 100%;
-    }
-
     .heading__container {
         margin-left: 10px;
         height: 400px;

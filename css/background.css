@@ -99,19 +99,3 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.quellen__background {
-    &.dark {
-        background-image:
-                linear-gradient(to bottom, rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)),
-                url('/images/background/background_5.jpg');
-
-    }
-    &.light {
-        background-image:
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.500), rgba(255, 255, 255, 0.500)),
-                url('/images/background/background_5.jpg');
-    }
-    background-repeat: no-repeat;
-    background-size: cover;
-}
