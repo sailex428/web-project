@@ -6,6 +6,7 @@ const setCookie = (cookieName, cookieValue, expirationDays) => {
 const getCookie = (cookieName) => {
     let name = cookieName + "=";
     const cookies = document.cookie.split(';');
+    
     for (let i = 0; i < cookieName.length; i++) {
         let currentCookie = cookies[i];
         if (currentCookie === undefined) {

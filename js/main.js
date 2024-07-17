@@ -1,7 +1,7 @@
 const MODE = "mode";
 const DARK = "dark";
 const LIGHT = "light";
-const pathNames = ["kann-ki-kunst", "urheberrechte", "was-ist-kunst", "impressum"];
+const pathNames = ["ki-kunst", "urheberrechte", "ki-tools", "impressum"];
 
 const toggleMode = () => {
     const elements = getModeElements();

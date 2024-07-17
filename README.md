@@ -30,3 +30,11 @@
     - https://www.augsburg.de/bildung-wirtschaft/bildung/schulen/berufliche-schulen
     - https://pixabay.com/de/illustrations/kunst-hintergrund-malen-aquarell-8788724/
 
+    - https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.png
+
+
+    - https://www.urheberrecht.de/dall-e/
+    - https://www.urheberrecht.de/kuenstliche-intelligenz/
+    - https://www.goethe.de/ins/gb/de/kul/mag/22094490.html
+    - https://www.wertgarantie.de/ratgeber/elektronik/unterhaltung-freizeit/news-trends/was-ist-ki-kunst-das-sind-die-wichtigsten-fakten
+
