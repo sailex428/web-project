@@ -27,5 +27,6 @@
     - https://pixabay.com/de/illustrations/ai-generiert-b%C3%A4ume-wald-feld-natur-8820935/
     - https://pixabay.com/de/illustrations/ai-generiert-wolf-hund-kopf-8464524/
     - https://pixabay.com/de/illustrations/ai-generiert-mann-portr%C3%A4t-kunst-8592847/
-
+    - https://www.augsburg.de/bildung-wirtschaft/bildung/schulen/berufliche-schulen
+    - https://pixabay.com/de/illustrations/kunst-hintergrund-malen-aquarell-8788724/
 

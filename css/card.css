@@ -5,7 +5,7 @@
 
     height: auto;
     max-width: 900px;
-    width: 80%;
+    width: 100%;
 
     padding: 15px;
     margin-top: 10px;
@@ -13,6 +13,7 @@
 
 .card__section {
     display: flex;
+    justify-content:  center;
     gap: 30px;
 }
 
@@ -25,6 +26,7 @@
 }
 
 .card {
+    width: 100%;
     padding: 20px;
 
     backface-visibility: visible;

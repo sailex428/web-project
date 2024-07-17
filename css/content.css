@@ -19,22 +19,45 @@
     }
 }
 
+.content__heading {
+    font-size: 40px;
+}
+
 .content__link {
     text-decoration: none;
+}
+
+.content__list {
+    list-style-type: none;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.content__subheading {
+    margin-top: 12px;
 }
 
 .content__text {
     font-family: sans-serif;
     &.dark {
         color: var(--text-color-dark-primary);
+        &.active {
+            color: white;
+        }
     }
     &.light {
         color: var(--text-color-light-primary);
+        &.active {
+            color: rgb(0, 0, 0);
+        }
     }
 }
 
-.content__textWrapper {
+.content__marginBottom {
     margin-bottom: 25px;
+}
+
+.content__textWrapper {
     padding: 0 15px 0 15px;
     border-left: 1px #989898 solid;
 }

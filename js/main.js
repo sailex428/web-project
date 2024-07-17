@@ -1,6 +1,7 @@
 const MODE = "mode";
 const DARK = "dark";
 const LIGHT = "light";
+const pathNames = ["kann-ki-kunst", "urheberrechte", "was-ist-kunst", "impressum"];
 
 const toggleMode = () => {
     const elements = getModeElements();
@@ -33,18 +34,43 @@ const handleModeOnRefresh = () => {
     document.getElementById("switch__input").checked = elements[0].classList.contains(DARK);
 }
 
-const fetchNavbar = () => {
-    fetch('../components/navbar.html')
+const fetchComponent = (pathToComponent, componentName) => {
+    fetch(pathToComponent)
         .then(response => response.text())
         .then(navbarData => {
-            const element = document.getElementById('navbar-placeholder');
+            const element = document.getElementById(componentName + '-placeholder');
             if (element !== null) {
                 element.innerHTML = navbarData;
             }
             handleModeOnRefresh();
+            handleNavbarHighlighting();
         });
 }
 
+const handleNavbarHighlighting = () => {
+    const pathName = document.location.pathname;
+
+    pathNames.forEach(path => {
+        const ele = document.getElementById(path);
+        if (ele === null) {
+            return;
+        }
+        if (pathName.includes(path)) {
+
+            if (!ele.classList.contains("active")) {
+                ele.classList.add("active");
+            }
+
+        } else {
+            if (ele.classList.contains("active")) {
+                ele.classList.remove("active")
+            }
+        }
+    })
+} 
+
 addEventListener("DOMContentLoaded", () => {
-    fetchNavbar();
+    fetchComponent('../components/navbar.html', "navbar");
+    fetchComponent('../components/footer.html', "footer");
+
 });

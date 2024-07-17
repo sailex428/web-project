@@ -22,6 +22,17 @@ body, html {
     z-index: 1;
 }
 
+.subpage {
+    justify-content: space-between;
+}
+
+.subpage__heading__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
 .heading__container {
     display: flex;
     flex-direction: column;
@@ -39,7 +50,14 @@ body, html {
     word-break: normal;
     margin-top: 5px;
     margin-bottom: 5px;
-    text-shadow: 0.5px 0.5px 2px #000000;
+    &.dark {
+        color: white;
+    }
+    &.light {
+        color: var(--text-color-light-primary);
+        text-shadow: 0 0 1px #86868659;
+    }
+    /* text-shadow: 0.5px 0.5px 2px #000000; */
 }
 
 .main__container {

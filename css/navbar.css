@@ -37,7 +37,12 @@ li {
 
 .navbar__default-link-text {
     text-decoration: none;
-    font-weight: 600;
+    &.navbar__logo {
+        font-weight: 600;
+    }
+    &.active {
+        font-weight: 600;
+    }
 }
 
 .navbar__logo {
