@@ -125,6 +125,10 @@ body, html {
     animation: fadeInAnimation ease 1s;
 }
 
+.source__link:hover {
+    text-decoration-color: #8f8f8f;
+}
+
 @media only screen and (max-width: 940px) {
     .heading__container {
         margin-left: 10px;
