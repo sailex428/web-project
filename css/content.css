@@ -39,6 +39,7 @@
 
 .content__text {
     font-family: sans-serif;
+    margin: 0 5px 0 5px;
     &.dark {
         color: var(--text-color-dark-primary);
         &.active {
@@ -62,7 +63,7 @@
     border-left: 1px #989898 solid;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 940px) {
     .content__wrapper {
         grid-template-columns: 1fr;
     }

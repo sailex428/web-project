@@ -62,7 +62,7 @@ li {
     width: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
     .navbar__logo__text {
         display: none;
     }

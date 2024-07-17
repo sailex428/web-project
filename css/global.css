@@ -1,6 +1,6 @@
 :root {
     --text-color-dark-primary: #989898;
-    --text-color-light-primary: #383838;
+    --text-color-light-primary: #494949;
     --background-color-dark-primary: #161616;
     --background-color-light-primary: #e0e0e0;
 }
@@ -57,7 +57,7 @@ body, html {
         color: var(--text-color-light-primary);
         text-shadow: 0 0 1px #86868659;
     }
-    /* text-shadow: 0.5px 0.5px 2px #000000; */
+    text-shadow: 0 0 4px #000000;
 }
 
 .main__container {
@@ -103,7 +103,7 @@ body, html {
     margin-top: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 940px) {
     .main__background {
         height: 100%;
     }
