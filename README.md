@@ -1,3 +1,3 @@
-# Web-project
+# web-project
 
-### This is school a web-project. Thema is KI in Kunst.
+### This is a school web-project. Topic is KI-Kunst.
