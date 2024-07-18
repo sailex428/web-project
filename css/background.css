@@ -25,12 +25,12 @@
     &.dark {
         background-image: 
         linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.863)),
-        url('/images/background/background_main.png');
+        url('../images/background/background_main.png');
     }
     &.light {
         background-image: 
         linear-gradient(to bottom, rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.445)),
-        url('/images/background/background_main.png');
+        url('../images/background/background_main.png');
     }
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,13 +40,13 @@
     &.dark {
         background-image:
             linear-gradient(to bottom, rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)),
-            url('/images/background/background_1.png');
+            url('../images/background/background_1.png');
         
     }
     &.light {
         background-image:
             linear-gradient(to bottom, rgba(255, 255, 255, 0.500), rgba(255, 255, 255, 0.500)),
-            url('/images/background/background_1.png');
+            url('../images/background/background_1.png');
     }
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,13 +56,13 @@
     &.dark {
         background-image:
                 linear-gradient(to bottom, rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)),
-                url('/images/background/background_2.jpg');
+                url('../images/background/background_2.jpg');
 
     }
     &.light {
         background-image:
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.500), rgba(255, 255, 255, 0.500)),
-                url('/images/background/background_2.jpg');
+                url('../images/background/background_2.jpg');
     }
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,13 +72,13 @@
     &.dark {
         background-image:
                 linear-gradient(to bottom, rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)),
-                url('/images/background/background_3.jpg');
+                url('../images/background/background_3.jpg');
 
     }
     &.light {
         background-image:
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.500), rgba(255, 255, 255, 0.500)),
-                url('/images/background/background_3.jpg');
+                url('../images/background/background_3.jpg');
     }
     background-repeat: no-repeat;
     background-size: cover;
