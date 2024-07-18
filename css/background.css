@@ -14,10 +14,10 @@
     filter: blur(5px);
 
     &.dark {
-        box-shadow: 0 0 0 10px #303030;
+        box-shadow: 0 0 0 20px #1a1a1a;
     }
     &.light {
-        box-shadow: 0 0 0 10px #d1d1d1;
+        box-shadow: 0 0 0 20px #d1d1d1;
     }
 }
 
